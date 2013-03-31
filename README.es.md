@@ -1,13 +1,13 @@
-# Programming Best Practices Tidbits
-### A Collection of quotes and paraphrases for developers from around the web.
+# Mejores prácticas de la Programación - Tidbits
+### Una colección de citas y frases obtenidos de la *web* para programadores.
 
 * * *
 
-## Never build Large Apps
+## Nunca construir aplicaciones grandes
 
-The secret to building large apps is never build large apps. Break your applications into small pieces. Then, assemble those testable, bite-sized pieces into your big application.
+El secreto para construir aplicaciones grandes es nunca construir aplicaciones grandes. Rompe tus aplicaciones en piezas más pequeñas. Entonces, ensambla esas piezas del tamaño de un mordizco que pueden ponerse a prueba, dentro de tu aplicación grande.
 
-Source: Justin Meyer, author JavaScriptMVC http://bitovi.com/blog/2010/11/organizing-a-jquery-application.html
+Fuente: Justin Meyer, autor de *JavaScriptMVC* http://bitovi.com/blog/2010/11/organizing-a-jquery-application.html
 
 ## Accept that you have no idea how this will grow
 
