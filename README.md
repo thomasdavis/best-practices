@@ -214,3 +214,5 @@ So what does the architecture of your application scream? When you look at the t
 Architectures should not be supplied by frameworks. Frameworks are tools to be used, not architectures to be conformed to. If your architecture is based on frameworks, then it cannot be based on your use cases.
 
 Source: Uncle Bob Martin "Screaming Architecture" http://blog.8thlight.com/uncle-bob/2011/09/30/Screaming-Architecture.html
+
+##Fuck it, ship it.
