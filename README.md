@@ -115,7 +115,7 @@ Source: http://junit.sourceforge.net/doc/testinfected/testing.htm
 * new keyword in a constructor or at field declaration
 * Static method calls in a constructor or at field declaration
 * Anything more than field assignment in constructors
-* Object not fully initialized after the constructor finishes (watch out forinitialize methods) Control flow (conditional or looping logic) in a constructor
+* Object not fully initialized after the constructor finishes (watch out forinitialize methods)
 * Control flow (conditional or looping logic) in a constructor
 * Code does complex object graph construction inside a constructor rather than using a factory or builder
 * Adding or using an initialization block 
