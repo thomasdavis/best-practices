@@ -18,19 +18,19 @@ Fuente: Nicholas Zakas, autor 'High-performance JavaScript websites' http://rada
 Reconocimiento:
 http://addyosmani.com/largescalejavascript/
 
-## Follow the principles of X
+## Sigue el principio de X
 
-In 1984, Bob Scheifler and Jim Gettys set out the early principles of X:
+En 1984, Bob Scheifler y Jim Gettys establecieron los tempranos principios de X:
 
-   * Do not add new functionality unless an implementor cannot complete a real application without it.
-   * It is as important to decide what a system is not as to decide what it is. Do not serve all the world's needs; rather, make the system extensible so that additional needs can be met in an upwardly compatible fashion.
-   * The only thing worse than generalizing from one example is generalizing from no examples at all.
-   * If a problem is not completely understood, it is probably best to provide no solution at all.
-   * If you can get 90 percent of the desired effect for 10 percent of the work, use the simpler solution. (See also Worse is better.)
-   * Isolate complexity as much as possible.
-   * Provide mechanism rather than policy. In particular, place user interface policy in the clients' hands.
+   * No añadir nueva funcionalidad a menos que un desarrollador no pueda completar una real aplicación sin ella.
+   * Es tan importante decidir qué no es parte del sistema, como decidir que si lo es. No respondas a las necesidades de todo el mundo; en lugar de eso, haz el sistema extensible para que las necesidades adicionales puedan cubrirse de una manera compatible ascendente.
+   * La única cosa peor que generalizar a partir de un ejemplo, es generalizar a partir de ningún ejemplo.
+   * Si un problema no es comprendido completamente, probablemente es mejor no proporcionar ninguna solución.
+   * Si puedes conseguir el 90 por ciento del efecto deseado para el 10 por ciento del trabajo, utiliza la solución más simple.
+   * Aísla la complejidad tanto cuanto sea posible.
+   * roporcionen un mecanismo en vez de una política. En particular, pongan la interfaz de política en las manos de los clientes.
    
-The first principle was modified during the design of X11 to: "Do not add new functionality unless you know of some real application that will require it."
+El primer principio fue modificado durante el diseño del X11: "No añadan nueva funcionalidad a menos que ustedes sepan de alguna aplicación real que la requiera".
 
 Source: http://en.wikipedia.org/wiki/X_Window_System_protocols_and_architecture#Design_principles
 
