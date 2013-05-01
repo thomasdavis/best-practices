@@ -1,6 +1,9 @@
 # Programming Best Practices Tidbits
 ### A Collection of quotes and paraphrases for developers from around the web.
 
+> Bad programmers worry about the code. Good programmers worry about data structures and their relationships
+> > Linus Torvalds
+
 ## McIlroy’s slightly longer original 4-point formulation is this:
 
 - Make each program do one thing well. To do a new job, build afresh rather than complicate old programs by adding new features.
