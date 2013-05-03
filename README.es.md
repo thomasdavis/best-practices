@@ -32,81 +32,74 @@ En 1984, Bob Scheifler y Jim Gettys establecieron los tempranos principios de X:
    
 El primer principio fue modificado durante el diseño del X11: "No añadan nueva funcionalidad a menos que ustedes sepan de alguna aplicación real que la requiera".
 
-Source: http://en.wikipedia.org/wiki/X_Window_System_protocols_and_architecture#Design_principles
+Fuente: http://en.wikipedia.org/wiki/X_Window_System_protocols_and_architecture#Design_principles
 
-## Quality Matters
+## La calidad importa
 
-When I hear "JUST BANG OUT CODE THAT WORKS" I think of all the apps I don't use anymore because they gradually lost the ability to iterate.
+Cuando escucho "SÓLO LIBERA DE UNA VEZ EL CÓDIGO QUE YA FUNCIONA!" pienso en todas las aplicaciones que dejé de usar porque gradualmente perdieron la habilidad de iterar.
 
-Source: https://twitter.com/#!/avdi/status/180747721852985344
+Fuente: https://twitter.com/#!/avdi/status/180747721852985344
 
-## Don't do hard things, do easy things.
+## No hagas cosas difíciles, has cosas sencillas.
 
-* Simple is better than complex.
-* Complex is better than complicated.
-* Flat is better than nested.
-* Readability counts.
-* If the implementation is hard to explain, it's a bad idea.
-* If the implementation is easy to explain, it may be a good idea.
+* Simple es mejor que complejo.
+* Complejo es mejor que complicado.
+* Plano es mejor que anidado.
+* La legibilidad cuenta.
+* Si la implementación es difícil de explicar, es una mala idea.
+* Si la implementación es fácil de explicar, puede que sea una buena idea.
 
-Source: The Zen of Python: http://www.python.org/dev/peps/pep-0020/
-(shortlist + title from Jack Diederich of http://pyvideo.org/video/880/stop-writing-classes)
+Fuente: El Zen de Python: http://www.python.org/dev/peps/pep-0020/
+(Lista + título de Jack Diederich of http://pyvideo.org/video/880/stop-writing-classes)
 
-## Don't Write Code
+## No escribas código
 
-Don’t write code (write new code only when everything else fails) is the single most important lesson every developer needs to learn. The amount of duplicate, crappy code (across projects) that exists today is overwhelming. In a lot of cases developers don’t even bother to look around. They just want to write code.
+No escribas código (escribe nuevo código solamente cuando todo lo demás falle) es la lección más importante que todo desarrollado debería aprender. La cantidad de código duplicado y basura que existe (en todos los proyectos) es abrumadora. En muchos casos los desarrolladores ni se molestan en echar un vistazo. Lo único que quieren es escribir código.
 
-Source: http://blogs.agilefaqs.com/2009/10/19/biggest-stinkers/
+Fuente: http://blogs.agilefaqs.com/2009/10/19/biggest-stinkers/
 
-#### Reducing the amount of code in your product should be a goal.
+#### Reducir la cantidad de código en tu producto debería ser una meta.
 
-"I hate code, and I want as little of it as possible in our product." - Jack Diederich
+"Odio el código, y quiero tan poco código como sea posible en nuestro producto." - Jack Diederich
 
-## Stop Writing Classes
+## Deja de escribir clases
 
-The signature of "this shouldn't be a class" is when the class has two methods, and one of them is the constructor. 
-Any time you see these signs, you probably should have just written a function.
+La señal de que "esto no debería ser una clase" es cuando la clase tiene 2 métodos, y uno de ellos es el constructor. Cada vez que veas estas señales, probablemente deberías sólo escribir una función.
 
-Source: Jack Diederich, Stop Writing Classes http://pyvideo.org/video/880/stop-writing-classes
+Fuente: Jack Diederich, Stop Writing Classes http://pyvideo.org/video/880/stop-writing-classes
 
-## Refactoring > Rewriting
+## Refactorizar > Reescribir
 
-#### Common Excuses For A Software Rewrite
-1. The Code Sucks
-2. "We're So Much Smarter Now"
-3. We Picked The Wrong Platform/Language
+#### Excusas comunes para reescribir software
+1. El código apesta
+2. "Somos mucho más inteligentes ahora"
+3. Escogimos la plataforma/lenguaje equivocado
 
-#### Why Rewriting Is (Almost) Never A Good Idea
+#### Por qué reescribir (casi) nunca es una buena idea 
 
-1. It Will Take Longer Than You Think
-2. Markets Change
-2. Existing Customers Become Frustrated
-3. Refactoring Can Cleanup The Code
-4. You Don't Control The Rewrite, It Controls You
+1. Tardará más de lo que piensas
+2. Los mercados cambian
+2. Los clientes existentes se frustran
+3. Refactorizar puede limpiar el código
+4. No controlas la reescritura, ella te controla a ti
 
 http://onstartups.com/tabid/3339/bid/2596/Why-You-Should-Almost-Never-Rewrite-Your-Software.aspx
 
-## Rewriting > Patching
-If you are changing more than 25% of a class or method, consider simply rewriting it. You will write the code more cleanly.
+## Reescribir > Parchar
+Si vas a cambiar más del 25% de una clase o método, considera simplemente reescribirlo. Escribirás código más limpio.
 
-## Refining existing features > Adding new features.
+## Refinando funcionalidades existentes existing features > Agregando nuevas funcionalidades.
 
-The problem: it is too easy to lose sight of what users often care about more, which is the performance and usability of the applications and features they already use most often.
+El problema: es muy fácil perder de vista lo que más importa a los usuarios, que es el rendimiento y la usabilidad de las aplicaciones y las funcionalidades que usan más a menudo.
 
-Source: Tim Anderson "Making better software: forget new features, just do the same stuff better" http://www.itjoblog.co.uk/2011/06/making-better-software.html
+Fuente: Tim Anderson "Making better software: forget new features, just do the same stuff better" http://www.itjoblog.co.uk/2011/06/making-better-software.html
 
-## Write unit tests.
-Every programmer knows they should write tests for
-their code. Few do. The universal response to "Why not?" is "I'm
-in too much of a hurry." This quickly becomes a vicious cycle- the more pressure you feel, the fewer tests you write. The fewer tests you write, the less productive you are and the less stable your code becomes. The less productive and accurate you are, the more pressure you feel.
-Programmers burn out from just such cycles.
-Breaking out requires an outside influence. We found the outside influence we needed in a simple testing framework that lets us do a little testing that
-makes a big difference.
+## Escribe tests unitarios.
+Todo programador sabe que debería escribir tests para su código. Pocos lo hacen. La respuesta universal al "¿Por qué no?" es "Tengo mucha prisa." Rápidamente esto se convierte en un círculo vicioso. Cuanta más presión sientas, menos pruebas escribirás. Entre menos pruebas escribas, serás menos productivo y tu código se volverá menos estable. Entre menos productivo seas, mayor presión sentirás. Los programadores se desgastan con esos ciclos. Romperlos requiere de una influencia externa. Encontramos esa influencia externa en un simple framework de pruebas que nos deja hacer pequeñas pruebas que hacen una gran diferencia.
 
-Source: http://junit.sourceforge.net/doc/testinfected/testing.htm
+Fuente: http://junit.sourceforge.net/doc/testinfected/testing.htm
 
-
-#### [Without unit tests] You're not refactoring, you're just changing shit. — Hamlet D'Arcy
+#### [Sin los tests unitarios] No estás refactorizando, sólo estás cambiando mierda. — Hamlet D'Arcy
 
 ## To write effective unit tests, you need to write testable code
 
