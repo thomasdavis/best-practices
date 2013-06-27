@@ -203,7 +203,7 @@ Even if you aren't testing your code, you should write testable code. IoC enable
 
 ## Avoid Code Smells
 
-[Source](http://stackoverflow.com/questions/114342/what-are-code-smells-what-is-the-best-way-to-correct-them)
+[Source](http://www.codinghorror.com/blog/2006/05/code-smells.html)
 
 ## Avoid creating technical debt.
 
