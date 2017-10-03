@@ -256,7 +256,7 @@ Nobody likes to look stupid. If you’re a professional and someone puts you on 
 Good IT workers really don’t like saying “I don’t know.” If they say it, they probably mean it. So stop pushing for a definitive answer when one doesn’t exist.It’s perfectly reasonable to want some sort of plan up front. I’m actually one of those funny types who believe up front planning is a necessity. So long as everyone understands an estimate is just that: an estimate. You learn as you go along and discover more detail. So you revise the estimate accordingly.
 
 
-##Your architecture should resemble your domain
+## Your architecture should resemble your domain
 
 So what does the architecture of your application scream? When you look at the top level directory structure, and the source files in the highest level package; do they scream: health care system, or accounting system, or inventory management system? Or do they scream: rails, or spring/hibernate, or asp?
 
@@ -266,7 +266,7 @@ Architectures should not be supplied by frameworks. Frameworks are tools to be u
 
 [Source](http://blog.8thlight.com/uncle-bob/2011/09/30/Screaming-Architecture.html)
 
-##Unix Philosophy
+## Unix Philosophy
 
 "This is the Unix philosophy: Write programs that do one thing and do it well. Write programs to work together. Write programs to handle text streams, because that is a universal interface" - Doug McIlroy, quoted in A Quarter Century of Unix [Salus]. Addison-Wesley. 1994. ISBN 0-201-54777-5.
 
